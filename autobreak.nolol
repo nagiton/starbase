@@ -1,0 +1,25 @@
+define th=500
+define spth=30
+define n=1
+RF=1/(1/:RF1) // +1/RF2+1/RF3...
+if RF < th and :Turtle==100 then
+    if :speed > spth then
+        :Cruise=4
+        :FcuBackward=100
+        :FcuForward=0
+        :Turtle=1
+    else
+        :FcuBackward=0
+        :FcuForward=0
+    end
+
+end
+
+// 
+// inputs
+// RF rangefinerのRangeFinderDistance
+// th ブレーキ作動距離
+// n rangefinerの数
+// 
+// outputs
+// FcuBackward

@@ -1,0 +1,4 @@
+a=1/(1/:RF1) ifa>=500 or :Turtle!=100thengoto1end
+if:speed<=30thengoto4end :Cruise=4 :FcuBackward=100 :FcuForward=0
+:Turtle=1 goto1
+:FcuBackward=0 :FcuForward=0 goto1
