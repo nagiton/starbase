@@ -1,0 +1,3 @@
+if:MiningMode==1thengoto3end
+:FuelChamberUnitRateLimit=100*(1-:Battery/10000) goto1
+:FuelChamberUnitRateLimit=100 goto1

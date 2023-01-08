@@ -1,0 +1,5 @@
+if :MiningMode != 1 then
+    :FuelChamberUnitRateLimit = 100 *(1-:Battery/10000)
+else 
+    :FuelChamberUnitRateLimit = 100
+end
